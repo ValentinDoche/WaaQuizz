@@ -1,0 +1,13 @@
+// COLOR SETTING
+$primary-color: #0040C1;
+$secondary-color: #0C2F75;
+$primary-color-inv: #C22F13;
+
+$scheme-main: $primary-color-inv;
+$scheme-main-bis: $primary-color-inv;
+$scheme-invert: $primary-color-inv;
+$background: $primary-color;
+
+@import "../../../node_modules/bulma/bulma";
+@import "background";
+@import "navbar";
