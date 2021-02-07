@@ -1,0 +1,19 @@
+{
+  "name": "waaquizz",
+  "version": "1.0.0",
+  "description": "waaquizz is a web application of trivia games, supported 6 languages and have 23 categories",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valentindoche/WaaQuizz.git"
+  },
+  "author": "Valentin Doche | Lucas Bazin | Raphael Grangeos",
+  "license": "GNU GPL V3",
+  "bugs": {
+    "url": "https://github.com/valentindoche/WaaQuizz/issues"
+  },
+  "homepage": "https://github.com/valentindoche/WaaQuizz#readme"
+}
