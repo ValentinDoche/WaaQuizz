@@ -1,0 +1,6 @@
+// COLOR SETTING
+$primary-color: #0040C1;
+$secondary-color: darken($primary-color, 20%);
+
+@import "background";
+@import "navbar";
