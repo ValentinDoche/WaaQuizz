@@ -13,8 +13,7 @@
             src="https://code.jquery.com/jquery-3.5.1.js"
             integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
             crossorigin="anonymous"></script>
-    <script defer
-            src="assets/js/app.js"></script>
+    
 
 </head>
 <body>
@@ -22,6 +21,12 @@
 
     </div>
     <div id="root">
+      <div class="cube"></div>
+      <div class="cube"></div>
+      <div class="cube"></div>
+      <div class="cube"></div>
+      <div class="cube"></div>
+      <div class="cube"></div>
         <div id="my-app">
             <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
                 <div class="container">
@@ -58,13 +63,34 @@
                     </div>
                 </div>
             </nav>
-        </div>
-        <div class="cube"></div>
-        <div class="cube"></div>
-        <div class="cube"></div>
-        <div class="cube"></div>
-        <div class="cube"></div>
-        <div class="cube"></div>
+
+            <main class="container" style="margin-top: 75px;">
+              <div class="categories">
+                <h2 class="title is-2">Les catégories les plus jouées :</h2>
+                <div class="columns is-multiline" id="best-categories">
+                  
+                </div>
+                <h2 class="title is-2" style="margin-top: 2em;">Toutes les catégories : </h2>
+                <div class="columns is-multiline" id="all-categories">
+                </div>
+              </div>
+          </div>
+      </main>
     </div>
+    <div id="components" style="display: none;">
+      <div class="column is-4 card-category">
+        <div class="card" >
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script defer
+            src="assets/js/categories.js"></script>
+    <script defer
+            src="assets/js/app.js"></script>
 </body>
 </html>
